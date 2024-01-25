@@ -1,0 +1,14 @@
+.service{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: space-evenly;
+    background-color: transparent;
+    margin: 0 auto; 
+    max-width: 1000px; 
+}
+
+.service-item{
+    background-color: aquamarine;
+    padding: 10px;
+}
